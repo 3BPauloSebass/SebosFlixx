@@ -1,0 +1,40 @@
+.profile__main {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 2%;
+}
+
+.profile__main__watching {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.profile__main__watching__title {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--sextenary-color);
+}
+
+.profile__main__watching__container {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+.profile__main__watching__list {
+    list-style-type: none;
+}
+
+.profile__main__watching__image {
+    width: 12rem;
+}
+
+.profile__main__watching__list__paragraph {
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    color: black;
+}
